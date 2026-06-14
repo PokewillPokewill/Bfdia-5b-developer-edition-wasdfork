@@ -7391,7 +7391,7 @@ function keydown(event) {
 	}
 }
 
-function w(event) {
+function keyw(event) {
 	_keysDown[event.keyCode || event.charCode] = false;
 	// if (event.metaKey || event.ctrlKey) controlOrCommandPress = false;
 }
